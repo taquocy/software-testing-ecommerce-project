@@ -19,7 +19,7 @@ export default function Forms() {
                         {...register('Name')}
                         placeholder='Your Name'
                         className='border border-gray hover:border-black transition-all ease-out 1s rounded p-2 m-2'
-                        required
+                        
                     />
                 </div>
                 <div className='flex flex-col w-full col-span-full md:col-span-1'>
@@ -31,7 +31,7 @@ export default function Forms() {
                         {...register('email')}
                         placeholder='Your Email'
                         className='border border-gray hover:border-black transition-all ease-out 1s rounded p-2 m-2'
-                        required
+                        
                     />
                 </div>
                 <div className='flex flex-col w-full col-span-full'>
@@ -43,7 +43,7 @@ export default function Forms() {
                         {...register('subject')}
                         placeholder='The subject of your mail'
                         className='border border-gray hover:border-black transition-all ease-out 1s rounded p-2 m-2'
-                        required
+                        
                     />
                 </div>
             </div>
@@ -55,7 +55,7 @@ export default function Forms() {
                 {...register('Content')}
                 placeholder='the Content'
                 className='border border-gray hover:border-black transition-all ease-out 1s rounded p-2 m-2 min-h-[12rem]'
-                required
+                
             />
             <div className='flex items-center justify-center w-full my-4'>
                 <input

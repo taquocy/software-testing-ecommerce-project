@@ -74,24 +74,11 @@ export default function About() {
                         classContainer={'bg-gray-300'}
                     >
                         <div className='text-lg lg:text-xl flex flex-col gap-3 justify-center md:h-full'>
-                            <p>
-                                The ReactShop is a project made by{' '}
-                                <a
-                                    className='text-blue-500 underline hover:text-purple-500'
-                                    href='https://github.com/LeeBingler'
-                                >
-                                    Bingler Lee
-                                </a>
+                            <p>                                
                                 . This Web App is made with Tailwind and React.js, in order to test
                                 the App I use vitest.
                             </p>
-                            <p>
-                                This project was made to prove my skill in API data fetch, my
-                                capacity to build a functional web app with react and my skill with
-                                TailwindCSS. The API data fetch is made with axios, I just fetch the
-                                data one time in the first render of the App then i use the data as
-                                i want in the App.
-                            </p>
+                            
                         </div>
                     </Accordion>
                     <Accordion
