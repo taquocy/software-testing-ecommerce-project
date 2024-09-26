@@ -6,6 +6,8 @@ function BtnCart({ showCart, handleClickCart }) {
     const calcValueToDisplay = () => {
         let value = 0;
 
+        
+
         itemCart.forEach((item) => {
             value += item.number;
         });
