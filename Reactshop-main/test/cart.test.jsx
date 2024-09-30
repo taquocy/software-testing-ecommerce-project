@@ -6,7 +6,6 @@ import Cart from '../src/Pages/Cart';
 describe('Cart test', () => {
     it('Cart: render Component Correctly', () => {
         const cartComp = render(<Cart />);
-
         expect(cartComp).toBeTruthy();
     });
 });

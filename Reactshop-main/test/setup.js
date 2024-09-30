@@ -7,5 +7,6 @@ expect.extend(matchers);
 
 // runs a cleanup after each test case (e.g. clearing jsdom)
 afterEach(() => {
+  // TODO: add cleanup for testing-library
   cleanup();
 });
